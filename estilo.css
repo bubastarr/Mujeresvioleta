@@ -1,0 +1,94 @@
+.barra-navegacion {
+  background-color: #ffffff;
+}
+
+.barra-navegacion ul li a {
+  color: white; /* Establece el color del texto en blanco */
+  text-decoration: none;
+}
+.barra-navegacion ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.barra-navegacion li {
+  margin-right: 10px;
+}
+
+.blog-violeta {
+  margin-right: auto;
+}
+
+.barra-navegacion .inicio-sesion a {
+  font-size: 20px;
+  color: #ff00ff; /* Cambia el color a uno fluorescente */
+  font-weight: bold;
+  text-decoration: underline;
+  border: 2px solid #ff00ff; /* Agrega un recuadro de 2px de ancho con el color fluorescente */
+  padding: 5px 10px; /* Añade un espacio interno alrededor del enlace */
+  border-radius: 5px; /* Redondea las esquinas del recuadro */
+}
+
+/* Media Query para dispositivos con un ancho máximo de 768px */
+@media (max-width: 768px) {
+  .barra-navegacion ul {
+    flex-direction: column;
+  }
+
+  .barra-navegacion li {
+    margin: 5px 0;
+  }
+
+  .blog-violeta {
+    margin-right: 0;
+  }
+
+  .inicio-sesion {
+    font-size: 12px;
+  }
+}
+
+.barra-navegacion {
+  background-color: purple;
+  /* otros estilos */
+}
+
+.barra-navegacion img {
+  max-width: 100%;
+  height: auto;
+  width: 150px; /* Ajusta el valor según el tamaño deseado */
+  max-height: 50px; /* Ajusta el valor según el tamaño deseado */
+  order: -1;
+}
+
+.contenido {
+  background-color: #663399; /* Morado oscuro */
+  color: white; /* Texto en blanco */
+  padding: 20px;
+}
+
+.contenido h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contenido p {
+  font-size: 16px;
+}
+
+.franja-morada {
+  height: 200px; /* Altura de la franja */
+  background-color: #663399; /* Color morado */
+  border-top: 100px solid white; /* Línea blanca en la parte superior */
+}
+
+
+.frase-inspiradora {
+  background-color: #4e1919; /* Color de fondo del cuadro */
+  padding: 20px; /* Espaciado interno del cuadro */
+  border-radius: 10px; /* Bordes redondeados del cuadro */
+}
